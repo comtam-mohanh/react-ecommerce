@@ -1,0 +1,21 @@
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: flex-start;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.links p {
+    font-size: 8px !important;
+    color: ghostwhite;
+}
+
+.links h5 {
+    font-size: 12px;
+}

@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    color: darkblue;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.details-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.details-input input {
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: content-box;
+}
+
+.divider {
+    height: 1px;
+    background-color: lightgrey;
+    margin-top: 40px;
+}
+
+.form-header {
+    font-family: serif;
+    font-weight: bold;
+}
+
+.form p {
+    font-size: small;
+}
+
+a {
+    color: rgb(18, 164, 213);
+    text-decoration: none;
+}

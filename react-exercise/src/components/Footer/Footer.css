@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 12, 69);
+    color: white;
+    font-size: small;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(33, 33, 146);
+    font-size: smaller;
+}
+
+@media only screen and (max-width:400px) {
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,14 @@
+.product-option>img {
+    width: 100%;
+    max-width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.details {
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

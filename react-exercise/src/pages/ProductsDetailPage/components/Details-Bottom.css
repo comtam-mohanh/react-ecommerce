@@ -1,0 +1,35 @@
+.detail-bottom {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.color {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 90px;
+}
+
+.first {
+    background-color: chartreuse;
+}
+
+.second {
+    background-color: blueviolet;
+}
+
+.third {
+    background-color: chocolate;
+}
+
+#quantity {
+    align-self: flex-start;
+    padding: 2px;
+    width: 50px;
+}

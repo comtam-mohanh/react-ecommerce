@@ -1,0 +1,33 @@
+.suggestion {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.suggestion>img {
+    max-width: 50vw;
+    max-height: 50vh;
+    border-radius: 4px;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 4px;
+    color: azure;
+    font-weight: bold;
+    font-size: normal;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 45%;
+    padding: 12px;
+}
+
+.img-text>.pic-btn {
+    background-color: white;
+    padding: 8px 40px;
+    font-weight: bold;
+    box-shadow: none;
+    border: 0;
+    border-radius: 4px;
+    color: darkblue
+}

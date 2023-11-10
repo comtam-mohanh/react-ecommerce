@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 16px lightgrey;
+    padding: 2px 8px;
+    font-size: small;
+    font-weight: bold;
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.header-left>button {
+    border: none;
+    background-color: unset;
+    font-weight: bold;
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    position: relative;
+}
+
+.btn-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    background-color: azure;
+    margin-top: 130px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.btn-content p:hover {
+    background-color: lightgray;
+}
+
+.header-left:hover .btn-content {
+    display: block;
+}

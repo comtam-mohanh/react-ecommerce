@@ -1,0 +1,13 @@
+.footer-right {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.footer-right p {
+    font-size: 8px;
+}
+
+.link-right input {
+    padding: 8px 100px 8px 8px;
+    border-radius: 4px;
+}

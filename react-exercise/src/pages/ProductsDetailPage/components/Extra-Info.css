@@ -1,0 +1,13 @@
+.Extra-info>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.small-divider {
+    height: 1px;
+    background-color: grey;
+    backdrop-filter: blur(20px);
+    width: 100%;
+}
